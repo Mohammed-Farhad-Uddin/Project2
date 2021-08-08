@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 500px;
+    background-size: cover;
+    padding: 40px 20px;
+    margin-bottom: 300px;
+   
+}
+#name{
+    font-size: 50px;
+    color: firebrick;
+    margin-bottom: 30px;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 30px;
+}
+header .half-width p{
+    margin-bottom: 20px;
+}
+header .half-width a{
+    border: 1px solid sienna;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: sienna;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.clear{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.Biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    padding-top: 80px;
+}
+.margin{
+    padding-left: 20px;
+    padding-top: 150px;
+}
+.latest-work{
+    margin-left: 70px;
+    padding-bottom: 400px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.latest{
+    width: 30%;
+    float: left;
+    margin: 0px 10px;
+    
+}
+.latest img{
+    width: 100%;
+}
+.latest img:hover{
+    box-shadow: 5px 5px 40px tan;
+    cursor: pointer;
+}
+.latest-work h1{
+    font-size: 50px;
+    text-align: center;
+}
+.client{
+    text-align: center;
+    padding-bottom: 80px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin-top: 0px;
+}
+.box-message{
+    border: 1px solid tomato;
+    width: 500px;
+    position: relative;
+    left: 500px;
+    background-color: tomato;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.box-message p{
+    font-weight: 900;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+}
